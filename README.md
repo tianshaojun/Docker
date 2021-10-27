@@ -6,7 +6,7 @@
 
 ### 2.linux下安装docker
  
- 1. 使用curl命令下载shell脚本
+1. 使用curl命令下载shell脚本
 curl -fsSL get.docker.com -o get-docker.sh
 2.使用sh命令执行这个脚本
 sh get-docker.sh
