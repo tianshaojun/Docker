@@ -41,6 +41,17 @@
 
 ![](https://github.com/tianshaojun/Docker/blob/master/img/02.png)
 
+### 4.多容器操作和强制删除容器的方法
+
+ 1. 查看所有容器的ID<br/>
+    docker container ps -aq
+ 2. 停止多个容器<br/>
+    docker container stop $(docker container ps -aq)
+ 3. 删除多个容器<br/>
+    docker container rm $(docker container ps -aq)
+ 4. 强制删除容器<br/>
+    docker container rm <ID or Image Name> -f
+
 
 
  
