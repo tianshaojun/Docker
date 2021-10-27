@@ -23,6 +23,10 @@
 
 镜像和容器区别
 
+![](https://github.com/tianshaojun/Docker/blob/master/img/01.jpg)
+
+
+
 
 
 
