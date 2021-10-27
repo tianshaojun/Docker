@@ -16,9 +16,13 @@ docker version
 sudo systemctl start docker
 
  1. 使用curl命令下载shell脚本<br/>
- 2.11111
- 3. 第二行
- 4. 第三行
+    curl -fsSL get.docker.com -o get-docker.sh
+ 2. 使用sh命令执行这个脚本<br/>
+    sh get-docker.sh
+ 3. 检查是否安装成功<br/>
+    docker version
+ 4. 开启docker服务端<br/>
+    sudo systemctl start docker
 
 ### 3.Demo3.ts
 
