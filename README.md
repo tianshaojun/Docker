@@ -37,6 +37,10 @@
  5. 删除容器<br/>
     docker container rm name/ID
 
+相关命令简写方法
+
+![](https://github.com/tianshaojun/Docker/blob/master/img/02.png)
+
 
 
  
