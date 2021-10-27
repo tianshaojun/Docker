@@ -25,29 +25,17 @@
 
 ![](https://github.com/tianshaojun/Docker/blob/master/img/01.jpg)
 
-
-
-
-
-
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
-
-
-
- 
-
-
-
+ 1. 创建一个容器<br/>
+    docker container run <image name>
+ 2. 查看容器的信息和状态<br/>
+    docker container ls
+    docker container ps(不建议使用)
+ 3. 停止正在运行容器<br/>
+    docker container stop <name or ID>
+ 4. 查看所有容器，包含已经停止容器<br/>
+    docker container ls -a
+ 5. 删除容器
+    docker container rm <name or ID>
 
 
 
@@ -55,11 +43,4 @@
  
  
  
- 
- 
-
-
-
-
-
 
