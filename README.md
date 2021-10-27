@@ -6,7 +6,6 @@
 
 ### 2.linux下安装docker
 
-
 ### 3.Demo3.ts
 
 + 基础静态类型
