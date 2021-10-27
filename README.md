@@ -15,6 +15,10 @@ docker version
  4.开启docker服务端
 sudo systemctl start docker
 
+ 1. 第一行
+ 2. 第二行
+ 3. 第三行
+
 ### 3.Demo3.ts
 
 + 基础静态类型
