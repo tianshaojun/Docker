@@ -50,7 +50,7 @@
  3. 删除多个容器<br/>
     docker container rm $(docker container ps -aq)
  4. 强制删除容器<br/>
-    docker container rm <ID or Image Name> -f
+    docker container rm ID/ImageName -f
 
 ### 5.attached 和 detached 模式
 
