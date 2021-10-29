@@ -71,9 +71,11 @@
 ### 7.Docker的交互式模式
 
  1. 使用Ubuntu镜像并开启交互模式<br/>
-    docker container run -it ubuntu sh
+    docker container run -it ubuntu sh<br/>
+    11111
  2. detached模式下的交互<br/>
-    docker exec -it <ID or Image name> sh
+    docker exec -it ID/ImageName sh
+    
     
     
  
