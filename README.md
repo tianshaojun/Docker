@@ -59,7 +59,7 @@
  2. 开启detached模式<br/>
     docker run -d -p 80:80 nginx
  3. detached模式转换为attached模式<br/>
-    docker attach <ID or Image Name>
+    docker attach  ID/ImageName
  
 
 
