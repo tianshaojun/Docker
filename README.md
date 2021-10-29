@@ -72,13 +72,20 @@
 
  1. 使用Ubuntu镜像并开启交互模式<br/>
     docker container run -it ubuntu sh<br/>
-    -it  代表启用交互模式<br/>
+    -it 代表启用交互模式<br/>
     sh 代表使用Shell脚本<br/>
     ls  得到目录下的文件<br/>
     hostname  查看计算机名称<br/>
     exit  退出容器和交互模式<br/>
  2. detached模式下的交互<br/>
-    docker exec -it ID/ImageName sh
+    docker exec -it ID/ImageName sh<br/>
+    exec  执行<br/>
+    -it  交互模式<br/>
+    sh  用shell脚本进行交互<br/>
+    ls  得到目录下的文件<br/>
+    exit  退出容器和交互模式<br/>
+    
+
     
     
     
