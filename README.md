@@ -64,9 +64,11 @@
 ### 6.detached模式下查看logs
  
  1. 查看日志<br/>
-    docker container logs <ID or Image name>
+    docker container logs ID/ImageName
  2. 跟踪日志<br/>
-    docker container logs -f <ID or Image name>
+    docker container logs -f ID/ImageName
+ 
+ 
 
  
 
