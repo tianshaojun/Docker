@@ -94,9 +94,29 @@
  2. 镜像社区介绍：<br/>
     + dockerhub   https://hub.docker.com/
     + Quay   https://quay.io/
-    
 
-    
+### 9.Image镜像的拉取和删除
+
+ 1. 镜像的所有命令和提示<br/>
+    docker image
+ 2. 从dockerhub上拉取镜像<br/>
+    docker image pull wordpress
+ 3. 拉取具体版本号镜像<br/>
+    docker pull wordpress:php7.3-fpm-alpine
+ 4. 从Quay.io上拉取镜像<br/>
+    docker pull quay.io/calico/node
+ 5. 查看镜像列表的方法<br/>
+    docker image ls
+ 6. 查看镜像具体信息<br/>
+    docker image inspect ImageID
+ 7. 删除镜像<br/>
+    docker image rm ImageID
+
+
+
+
+
+
     
     
  
