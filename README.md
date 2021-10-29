@@ -67,6 +67,15 @@
     docker container logs ID/ImageName
  2. 跟踪日志<br/>
     docker container logs -f ID/ImageName
+    
+### 7.Docker的交互式模式
+
+ 1. 使用Ubuntu镜像并开启交互模式<br/>
+    docker container run -it ubuntu sh
+ 2. detached模式下的交互<br/>
+    docker exec -it <ID or Image name> sh
+    
+    
  
  
 
