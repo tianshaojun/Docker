@@ -87,18 +87,13 @@
     
 ### 8.镜像获取和Image Registry
 
- 1. 获取镜像的三个基本途径：<br/>
-    + 2111
-    + 222
-    + 333
- 2. detached模式下的交互<br/>
-    docker exec -it ID/ImageName sh<br/>
-    exec  执行<br/>
-    -it  交互模式<br/>
-    sh  用shell脚本进行交互<br/>
-    ls  得到目录下的文件<br/>
-    exit  退出容器和交互模式<br/>
-
+ 1. 获取镜像的三个基本途径：
+    + 从网络社区直接拉取
+    + 从Dockerfile构建一个镜像
+    + 自有文件的导入，可以从本地导入已经构建好的镜像文件，在没有网络的时候可以用
+ 2. 镜像社区介绍：<br/>
+    + dockerhub   https://hub.docker.com/
+    + Quay   https://quay.io/
     
 
     
