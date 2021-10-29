@@ -52,6 +52,17 @@
  4. 强制删除容器<br/>
     docker container rm <ID or Image Name> -f
 
+### 5.attached 和 detached 模式
+
+ 1. docker 端口映射,让Docker可以被访问到<br/>
+    docker container run -p 80:80 nginx(第一个端口是映射到服务器本机的端口，第二个端口是Docker容器使用的端口)
+ 2. 开启detached模式<br/>
+    docker run -d -p 80:80 nginx
+ 3. detached模式转换为attached模式<br/>
+    docker attach <ID or Image Name>
+ 
+
+
 
 
  
