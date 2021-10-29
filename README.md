@@ -61,6 +61,14 @@
  3. detached模式转换为attached模式<br/>
     docker attach  ID/ImageName
  
+### 6.detached模式下查看logs
+ 
+ 1. 查看日志<br/>
+    docker container logs <ID or Image name>
+ 2. 跟踪日志<br/>
+    docker container logs -f <ID or Image name>
+
+ 
 
 
 
