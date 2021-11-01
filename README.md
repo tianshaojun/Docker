@@ -122,6 +122,12 @@
 
 > Docker是一个包含用于组合映像的命令的文本文档。可以使用在命令行中调用任何命令。Docker通过读取Dockerfile中的指令自动生成映像。
 
+  1. Dockerfile是用于构建docker镜像的文件<br/>
+  2. Dockerfile里包含了构建镜像所需的"指令"<br/>
+  3. ockerfile有其特定的语法规则<br/>
+
+
+
 
 
      
