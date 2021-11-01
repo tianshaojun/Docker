@@ -124,7 +124,9 @@
 
   1. Dockerfile是用于构建docker镜像的文件<br/>
   2. Dockerfile里包含了构建镜像所需的"指令"<br/>
-  3. ockerfile有其特定的语法规则<br/>
+  3. Dockerfile有其特定的语法规则<br/>
+  
+  
 
 
 
