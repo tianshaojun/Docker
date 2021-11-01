@@ -126,6 +126,15 @@
   2. Dockerfile里包含了构建镜像所需的"指令"<br/>
   3. Dockerfile有其特定的语法规则<br/>
   
+### 12.通过Dockerfile构建镜像
+
+  1. Dockerfile构建镜像<br/>
+     docker image build -t jspang .
+  2. 执行容器<br/>
+     docker run jspang
+     
+    
+  
   
 
 
