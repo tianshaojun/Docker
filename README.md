@@ -112,11 +112,18 @@
  7. 删除镜像<br/>
     docker image rm ImageID
 
-### 9.镜像的导入导出
+### 10.镜像的导入导出
   1. 导出镜像<br/>
      docker image save busybox:latest -o mybusybox.image
   2. 导入镜像<br/>
      docker image load -i mybusybox.image
+     
+### 11.初识Dockerfile
+
+> Docker是一个包含用于组合映像的命令的文本文档。可以使用在命令行中调用任何命令。Docker通过读取Dockerfile中的指令自动生成映像。
+
+
+
      
 
 
