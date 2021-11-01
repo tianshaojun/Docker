@@ -112,23 +112,12 @@
  7. 删除镜像<br/>
     docker image rm ImageID
 
+### 9.镜像的导入导出
+  1. 导出镜像<br/>
+     docker image save busybox:latest -o mybusybox.image
+  2. 导入镜像<br/>
+     docker image load -i mybusybox.image
+     
 
 
-
-
-
-    
-    
- 
- 
-
- 
-
-
-
-
- 
- 
- 
- 
 
