@@ -133,15 +133,18 @@
   2. 执行容器<br/>
      docker run jspang
      
+### 13.把镜像分享到Dockerhub
+  1. 符合社区规则的镜像创建<br/>
+     docker image build -t jspangcom/jspang .<br/>
+     docker image tag oldImageName newImageName
+  2. 登录dockerhub<br/>
+     docker login
+  3. 把镜像push到社区<br/>
+     docker image push jspangcom/jspang
+     
     
   
   
-
-
-
-
-
-     
 
 
 
