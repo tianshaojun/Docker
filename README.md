@@ -150,21 +150,12 @@
   2. 固定版本的Tag，而不是每次都使用latest<br/>
   3. 功能满足，选择体积小的镜像<br/>
 
-### 15.11111
-     
-     
-     
-     
-     
-     
-     
-     
-     
+### 15.RUN执行指令使用技巧
+
+  1. Dockerfile打包命令<br/>
+     docker image build -f Dockerfile.bad -t ipinfo-bad .<br/>
+  2. 查看具体分层情况<br/>
+     docker image history ImageID
      
      
     
-  
-  
-
-
-
