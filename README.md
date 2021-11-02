@@ -134,6 +134,7 @@
      docker run jspang
      
 ### 13.把镜像分享到Dockerhub
+
   1. 符合社区规则的镜像创建<br/>
      docker image build -t jspangcom/jspang .<br/>
      docker image tag oldImageName newImageName
@@ -141,6 +142,26 @@
      docker login
   3. 把镜像push到社区<br/>
      docker image push jspangcom/jspang
+     
+### 14.FROM语法和镜像选择
+ 
+  选择基础镜像的三个原则：<br/>
+  1. 官方镜像优于非官方的镜像<br/>
+  2. 固定版本的Tag，而不是每次都使用latest<br/>
+  3. 功能满足，选择体积小的镜像<br/>
+
+### 15.111111
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
      
     
   
