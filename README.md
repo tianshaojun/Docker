@@ -182,7 +182,7 @@
      + 如果定义多个CMD，只有最后一个CMD执行
   4. 容器启动时指定命令<br/>
      docker container run -it ipinfo-base ipinfo version
-
+  
 
 
 
