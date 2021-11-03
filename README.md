@@ -157,5 +157,24 @@
   2. 查看具体分层情况<br/>
      docker image history ImageID
      
+### 16.Dockerfile中的文件操作
+
+  1. 用copy命令构建镜像<br/>
+     docker image build -f Dockerfile.copy -t hello-copy .<br/>
+  2. 用add构建镜像<br/>
+     docker image build -f Dockerfile.add -t hello-gzip .
+  3. 切换工作目录workdir
+     
+### 17.1111111
+
+
+
+
+
+
+
+     
+     
+     
      
     
