@@ -172,6 +172,21 @@
   
 ### 18.CMD容器启动命令
 
+  1. 批量删除已经退出的容器<br/>
+     docker system prune -f
+  2. 删除没有使用的所有镜像<br/>
+     docker image prune -a
+  3. CMD命令的三个基本特性：<br/>
+     + 容器启动时默认执行的命令
+     + 如果docker container run 启动容器时指定了其他命令，则CMD命令会被忽略
+     + 如果定义多个CMD，只有最后一个CMD执行
+  4. 容器启动时指定命令<br/>
+     docker container run -it ipinfo-base ipinfo version
+
+
+
+
+
 
 
 
