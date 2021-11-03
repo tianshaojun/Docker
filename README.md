@@ -162,10 +162,18 @@
   1. 用copy命令构建镜像<br/>
      docker image build -f Dockerfile.copy -t hello-copy .<br/>
   2. 用add构建镜像<br/>
-     docker image build -f Dockerfile.add -t hello-gzip .
+     docker image build -f Dockerfile.add -t hello-gzip .<br/>
   3. 切换工作目录workdir
      
-### 17.1111111
+### 17.Dockerfile中的ARG和ENV
+
+  1. ARG是构建环境，ENV可带到镜像中<br/>
+  2. ARG可以在构建镜像时改变变量值
+  
+### 18.CMD容器启动命令
+
+
+
 
 
 
