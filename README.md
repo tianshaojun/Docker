@@ -183,7 +183,11 @@
   4. 容器启动时指定命令<br/>
      docker container run -it ipinfo-base ipinfo version
   
+### 19.ENTERPOINT命令的使用
 
+  ENTRYPOINT和CMD的区别：<br/>
+  1. CMD设置的命令，可以在docker container run时传入其他命令，覆盖掉CMD的命令，但是ENTRYPOINT所设置的命令时一定会被执行的。<br/>
+  2. ENTRYPOINT和CMD可以联合使用，ENTRYPOINT设置执行的命令，CMD传递参数。
 
 
 
