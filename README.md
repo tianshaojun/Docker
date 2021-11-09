@@ -201,7 +201,10 @@ ENTRYPOINT和CMD的区别：<br/>
   1. 给volume起名字，实现复用<br/>
      docker container run -d -v my-data:/app my-image
  
- 
+  ### 22.Bind Mount实现数据持久化
+  
+  1. Bind Mount命令的使用<br/>
+     docker container run -it -v ${pwd}:/app node
      
      
 
