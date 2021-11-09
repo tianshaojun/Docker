@@ -191,10 +191,12 @@ ENTRYPOINT和CMD的区别：<br/>
 
 ### 20.VOLUME命令设置数据持久化-1
 
-  1. 查看所有的持久化空间(主要是存储空间的ID)
-    dokcer volume ls
-  2. 查看持久化的具体地址
-    docker volume inspect id
+  1. 查看所有的持久化空间(主要是存储空间的ID)<br/>
+     dokcer volume ls
+  2. 查看持久化的具体地址<br/>
+     docker volume inspect id
+     
+     
 
 
 
