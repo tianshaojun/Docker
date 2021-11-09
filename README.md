@@ -201,10 +201,22 @@ ENTRYPOINT和CMD的区别：<br/>
   1. 给volume起名字，实现复用<br/>
      docker container run -d -v my-data:/app my-image
  
-  ### 22.Bind Mount实现数据持久化
+ ### 22.Bind Mount实现数据持久化
   
   1. Bind Mount命令的使用<br/>
      docker container run -it -v ${pwd}:/app node
+     
+ ### 23.容器的端口转发
+ 
+  1. Linux主机安装Wordpress<br/>
+     docker container run -d -p 80:80 wordpress
+  2. 查看容器提供的端口<br/>
+     docker container inspect --format '{{.Config.ExposedPorts}}' containerId
+  3. 查看详细信息<br/>
+     docker container inspect containerId
+     
+     
+     
      
      
 
