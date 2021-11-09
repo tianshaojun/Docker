@@ -196,6 +196,13 @@ ENTRYPOINT和CMD的区别：<br/>
   2. 查看持久化的具体地址<br/>
      docker volume inspect id
      
+ ### 21.VOLUME命令设置数据持久化-2
+ 
+  1. 给volume起名字，实现复用<br/>
+     docker container run -d -v my-data:/app my-image
+ 
+ 
+     
      
 
 
