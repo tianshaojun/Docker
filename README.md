@@ -189,6 +189,13 @@ ENTRYPOINT和CMD的区别：<br/>
   1. CMD设置的命令，可以在docker container run时传入其他命令，覆盖掉CMD的命令，但是ENTRYPOINT所设置的命令时一定会被执行的。<br/>
   2. ENTRYPOINT和CMD可以联合使用，ENTRYPOINT设置执行的命令，CMD传递参数。
 
+### 20.VOLUME命令设置数据持久化-1
+
+  1. 查看所有的持久化空间(主要是存储空间的ID)
+    dokcer volume ls
+  2. 查看持久化的具体地址
+    docker volume inspect id
+
 
 
 
