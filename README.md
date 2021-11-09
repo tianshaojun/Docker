@@ -23,7 +23,7 @@
 
 镜像和容器区别
 
-![](https://github.com/tianshaojun/Docker/blob/master/img/01.jpg)
+![](https://github.com/tianshaojun/Docker/blob/main/img/01.jpg)
 
  1. 创建一个容器<br/>
     docker container run nginx
