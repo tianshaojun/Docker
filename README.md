@@ -39,7 +39,7 @@
 
 相关命令简写方法
 
-![](https://github.com/tianshaojun/Docker/blob/master/img/02.png)
+![](https://github.com/tianshaojun/Docker/blob/main/img/02.png)
 
 ### 4.多容器操作和强制删除容器的方法
 
