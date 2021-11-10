@@ -220,11 +220,11 @@ ENTRYPOINT和CMD的区别：<br/>
   1. 查看安装的版本<br/>
      docker-compose --version
   #### Linux安装
-  1.第一条命令<br/>
+   1. 第一条命令<br/>
     sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose<br/>
-  2.第二条命令<br/>
+   2. 第二条命令<br/>
     sudo chmod +x /usr/local/bin/docker-compose<br/>
-  3.第三条命令<br/>
+   3. 第三条命令<br/>
     sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
      
      
