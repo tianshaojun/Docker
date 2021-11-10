@@ -239,7 +239,7 @@ ENTRYPOINT和CMD的区别：<br/>
       
  ### 25.docker-compose文件的结构和版本
  
- ### 26.docker-compose基础命令使用
+### 26.docker-compose基础命令使用
  
    1. 开启容器命令<br/>
       docker compose up
@@ -249,6 +249,15 @@ ENTRYPOINT和CMD的区别：<br/>
       docker compose stop
    4. docker compose的清理<br/>
       docker compose rm
+   
+### 27.docker-compose镜像构建和拉取
+
+   1. 删除没有使用的容器<br/>
+      docker system prune -f
+   2. 删除不使用的镜像<br/>
+      docker image prune -a
+      
+      
       
       
       
