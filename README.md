@@ -238,6 +238,24 @@ ENTRYPOINT和CMD的区别：<br/>
       sudo pip install -U docker-compose
       
  ### 25.docker-compose文件的结构和版本
+ 
+ ### 26.docker-compose基础命令使用
+ 
+   1. 开启容器命令<br/>
+      docker compose up
+   2. 开启容器有日志输出，窗口被占用，无法进行其他操作的解决<br/>
+      docker compose up -d
+   3. docker compose的停止<br/>
+      docker compose stop
+   4. docker compose的清理<br/>
+      docker compose rm
+      
+      
+      
+      
+    
+
+
       
       
   
