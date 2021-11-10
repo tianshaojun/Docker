@@ -236,6 +236,10 @@ ENTRYPOINT和CMD的区别：<br/>
       sudo yum -y install python-pip
    4. 安装docker-compose<br/>
       sudo pip install -U docker-compose
+      
+ ### 25.docker-compose文件的结构和版本
+      
+      
   
      
      
