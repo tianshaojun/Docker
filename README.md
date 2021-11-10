@@ -219,13 +219,24 @@ ENTRYPOINT和CMD的区别：<br/>
  
   1. 查看安装的版本<br/>
      docker-compose --version
-  ####  Linux安装
+  #### Linux安装
    1. 第一条命令<br/>
-    sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose<br/>
+      sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose<br/>
    2. 第二条命令<br/>
-    sudo chmod +x /usr/local/bin/docker-compose<br/>
+      sudo chmod +x /usr/local/bin/docker-compose<br/>
    3. 第三条命令<br/>
-    sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+      sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+  #### Linux用pip命令安装
+  
+   1. 查看是否安装依赖包<br/>
+      sudo yum install epel-release
+   2. 更新文件库<br/>
+      sudo yum -y update
+   3. 安装pip<br/>
+      sudo yum -y install python-pip
+   4. 安装docker-compose<br/>
+      sudo pip install -U docker-compose
+  
      
      
      
