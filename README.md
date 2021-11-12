@@ -261,10 +261,21 @@ ENTRYPOINT和CMD的区别：<br/>
 
    1. 查看所有Docker的网络列表<br/>
       docker network ls
+    
+### 29.host和node网络模式讲解
+
+   1. host网络模式<br/>
+      > host网络模式使用主机网络模式，容器没有IP和网关这些，都是用实体主机的。容器将不会虚拟出自己的网卡，配置自己的IP等，而是使用宿主机的IP和端口。
+   2. none网络模式<br/>
+      > none网络模式是指禁用网络功能，只有lo接口local的简写，代表127.0.0.1，既localhost本地环回接口。在创建容器时通过 - - net none 或者 --network none 指定。
+
       
      
 
-      
+      (1).host网络模式
+host网络模式使用主机网络模式，容器没有IP和网关这些，都是用实体主机的。容器将不会虚拟出自己的网卡，配置自己的IP等，而是使用宿主机的IP和端口。
+(2).none网络模式
+none网络模式是指禁用网络功能，只有lo接口local的简写，代表127.0.0.1，既localhost本地环回接口。在创建容器时通过 - - net none 或者 --network none 指定。
       
       
       
